@@ -1,6 +1,7 @@
 public class Writer {
 
-  public String getString() {
-    return "this is a second test";
+  public static void write(String text) {
+    System.out.println(text);
   }
+
 }
