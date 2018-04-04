@@ -1,8 +1,7 @@
 public class Service {
 
   public static void main(String[] args) {
-
-    System.out.println("this is a test");
-
+    Writer writer = new Writer();
+    System.out.println(writer.getString());
   }
 }
